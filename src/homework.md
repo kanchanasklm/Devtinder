@@ -96,3 +96,12 @@ add required,unique,lowercase,min,minlength,trim
 -set the expiry of jwt token and cookies to 7 days.
 -never expire token is bad thing bcz if a suer opens a your profile from friend laptop it will harm .bcz token is not expires.so expiry token is better.
 -create userschema methods to getJWT() and to comparepassword(passwordinputbyuser)
+
+-11
+-explore tinder apis
+-create a list of all apis in tinder
+-group multiple routes under respective routers.
+-explore or read documentation for express router
+-create routes folder for managing auth,profile,request routers
+-create authRouter,profileRouter,RequestRouter
+-Import these routers in app.js
