@@ -105,3 +105,21 @@ add required,unique,lowercase,min,minlength,trim
 -create routes folder for managing auth,profile,request routers
 -create authRouter,profileRouter,RequestRouter
 -Import these routers in app.js
+-Create POST /logout API
+-Create PATCH /profile/edit
+-create PATCH /profile/password API =>forgot password API
+-Make you validate all data in every POST,PATCH apis
+
+-12
+Craete Connection request schema
+Send Connection request api
+-proper validation of data
+-Think about all corner cases
+-$or query and $and query in mongoose
+-schema.pre("save) function
+-Read more about indexes in DB
+-Why do we need index in db
+-what is the advantages and disadvantages of dreating
+-Read the article for about compound indexes.
+
+-
