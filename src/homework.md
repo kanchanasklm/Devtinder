@@ -122,4 +122,9 @@ Send Connection request api
 -what is the advantages and disadvantages of dreating
 -Read the article for about compound indexes.
 
--
+- 13
+  -write code with proper validation for POST /request/review/:status/:requestId
+  -Thought process -POSTvsGET
+  -Read about ref and populate
+  -Create GET /user/requests/received with all the checks
+  -Create GET GET/user/connections
